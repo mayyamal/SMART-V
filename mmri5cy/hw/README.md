@@ -1,6 +1,6 @@
 ## Switching between SMART-V and PRATER-V
 
-For now the hardware for SMART-V, PRATER-V, and no MPU is created as a separate module in this branch (mpu)
+For now the hardware for SMART-V, PRATER-V, and no MPU is created as a separate module in this branch.
 
 The enabling/disabling is done in the following files:
 	1. In makefile:
