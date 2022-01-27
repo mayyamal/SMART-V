@@ -1,0 +1,17 @@
+
+csrRead.elf:     file format elf32-littleriscv
+
+
+Disassembly of section .text:
+
+00000000 <_start-0x200>:
+	...
+
+00000200 <_start>:
+ 200:	000107b7          	lui	a5,0x10
+ 204:	fff78793          	addi	a5,a5,-1 # ffff <_start+0xfdff>
+ 208:	300027f3          	csrr	a5,mstatus
+ 20c:	b0102773          	csrr	a4,0xb01
+ 210:	00000013          	nop
+ 214:	00000013          	nop
+ 218:	00000013          	nop

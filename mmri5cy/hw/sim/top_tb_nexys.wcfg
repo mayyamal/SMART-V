@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="work.top_tb.wdb" id="1">
+         <top_modules>
+            <top_module name="apu_core_package" />
+            <top_module name="riscv_defines" />
+            <top_module name="riscv_tracer_defines" />
+            <top_module name="std" />
+            <top_module name="top_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="568402125061fs"></ZoomEndTime>
+      <Cursor1Time time="83260000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="175"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="11" />
+   <wave_markers>
+      <marker label="" time="108500000000" />
+      <marker label="" time="461240000000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /leds">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/pc_id_i">
+      <obj_property name="ElementShortName">pc_id_i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_id_i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/decoder_i/current_priv_lvl_i">
+      <obj_property name="ElementShortName">current_priv_lvl_i[1:0]</obj_property>
+      <obj_property name="ObjectShortName">current_priv_lvl_i[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group202">
+      <obj_property name="label">Register</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[28]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[28][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[28][31:0]</obj_property>
+         <obj_property name="label">t3</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[15]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[15][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[15][31:0]</obj_property>
+         <obj_property name="label">a5</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[14]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[14][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[14][31:0]</obj_property>
+         <obj_property name="label">a4</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[13]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[13][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[13][31:0]</obj_property>
+         <obj_property name="label">a3</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[12]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[12][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[12][31:0]</obj_property>
+         <obj_property name="label">a2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[11]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[11][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[11][31:0]</obj_property>
+         <obj_property name="label">a1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[10]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[10][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+         <obj_property name="label">a0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[9]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[9][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[9][31:0]</obj_property>
+         <obj_property name="label">s1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[8]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[8][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[8][31:0]</obj_property>
+         <obj_property name="label">s0/fp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[7]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[7][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[7][31:0]</obj_property>
+         <obj_property name="label">t2</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[6]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[6][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[6][31:0]</obj_property>
+         <obj_property name="label">t1</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[5]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[5][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+         <obj_property name="label">t0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[4]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+         <obj_property name="label">tp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[3]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[3][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+         <obj_property name="label">gp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[2]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+         <obj_property name="label">sp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/registers_i/riscv_register_file_i/mem[1]">
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="ElementShortName">[1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+         <obj_property name="label">ra</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group49">
+      <obj_property name="label">UART</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/data_addr">
+         <obj_property name="ElementShortName">data_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /uart_tx">
+         <obj_property name="ElementShortName">uart_tx</obj_property>
+         <obj_property name="ObjectShortName">uart_tx</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/data_wdata_i">
+         <obj_property name="ElementShortName">data_wdata_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_wdata_i[31:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/ctrl">
+         <obj_property name="ElementShortName">ctrl[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ctrl[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/status">
+         <obj_property name="ElementShortName">status[31:0]</obj_property>
+         <obj_property name="ObjectShortName">status[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_data">
+         <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+         <obj_property name="Radix">BINARYRADIX</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_fifo">
+         <obj_property name="ElementShortName">tx_fifo[3:0][7:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo[3:0][7:0]</obj_property>
+         <obj_property name="Radix">ASCIIRADIX</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/txd">
+         <obj_property name="ElementShortName">txd</obj_property>
+         <obj_property name="ObjectShortName">txd</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_bit_nxt">
+         <obj_property name="ElementShortName">tx_bit_nxt</obj_property>
+         <obj_property name="ObjectShortName">tx_bit_nxt</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/rdata">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/addr">
+         <obj_property name="ElementShortName">addr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/reg_addr">
+         <obj_property name="ElementShortName">reg_addr[3:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_addr[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/wen">
+         <obj_property name="ElementShortName">wen</obj_property>
+         <obj_property name="ObjectShortName">wen</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/en">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/en_dly">
+         <obj_property name="ElementShortName">en_dly</obj_property>
+         <obj_property name="ObjectShortName">en_dly</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/en_ctrl">
+         <obj_property name="ElementShortName">en_ctrl</obj_property>
+         <obj_property name="ObjectShortName">en_ctrl</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/en_status">
+         <obj_property name="ElementShortName">en_status</obj_property>
+         <obj_property name="ObjectShortName">en_status</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/en_data">
+         <obj_property name="ElementShortName">en_data</obj_property>
+         <obj_property name="ObjectShortName">en_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_en">
+         <obj_property name="ElementShortName">uart_en</obj_property>
+         <obj_property name="ObjectShortName">uart_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/data_we_i">
+         <obj_property name="ElementShortName">data_we_i</obj_property>
+         <obj_property name="ObjectShortName">data_we_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/data_addr_i">
+         <obj_property name="ElementShortName">data_addr_i[3:0]</obj_property>
+         <obj_property name="ObjectShortName">data_addr_i[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/data_rdata_o">
+         <obj_property name="ElementShortName">data_rdata_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_rdata_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/en_dly">
+         <obj_property name="ElementShortName">en_dly</obj_property>
+         <obj_property name="ObjectShortName">en_dly</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_start">
+         <obj_property name="ElementShortName">tx_start</obj_property>
+         <obj_property name="ObjectShortName">tx_start</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_done">
+         <obj_property name="ElementShortName">tx_done</obj_property>
+         <obj_property name="ObjectShortName">tx_done</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_fifo_full">
+         <obj_property name="ElementShortName">tx_fifo_full</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_full</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_bit_cnt">
+         <obj_property name="ElementShortName">tx_bit_cnt[3:0]</obj_property>
+         <obj_property name="ObjectShortName">tx_bit_cnt[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_fifo_empty">
+         <obj_property name="ElementShortName">tx_fifo_empty</obj_property>
+         <obj_property name="ObjectShortName">tx_fifo_empty</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/tx_parity">
+         <obj_property name="ElementShortName">tx_parity</obj_property>
+         <obj_property name="ObjectShortName">tx_parity</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart/uart_inst/bus_wait">
+         <obj_property name="ElementShortName">bus_wait</obj_property>
+         <obj_property name="ObjectShortName">bus_wait</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group50">
+      <obj_property name="label">PC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mepc_q">
+         <obj_property name="ElementShortName">mepc_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mepc_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/uepc_q">
+         <obj_property name="ElementShortName">uepc_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">uepc_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mstatus_q">
+         <obj_property name="ElementShortName">mstatus_q</obj_property>
+         <obj_property name="ObjectShortName">mstatus_q</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mcause_n">
+         <obj_property name="ElementShortName">mcause_n[5:0]</obj_property>
+         <obj_property name="ObjectShortName">mcause_n[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/ucause_n">
+         <obj_property name="ElementShortName">ucause_n[5:0]</obj_property>
+         <obj_property name="ObjectShortName">ucause_n[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/exception_pc">
+         <obj_property name="ElementShortName">exception_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">exception_pc[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group51">
+      <obj_property name="label">INT</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/int_controller_i/irq_o">
+         <obj_property name="ElementShortName">irq_o</obj_property>
+         <obj_property name="ObjectShortName">irq_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/int_controller_i/irq_req_ctrl_o">
+         <obj_property name="ElementShortName">irq_req_ctrl_o</obj_property>
+         <obj_property name="ObjectShortName">irq_req_ctrl_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/int_controller_i/irq_sec_ctrl_o">
+         <obj_property name="ElementShortName">irq_sec_ctrl_o</obj_property>
+         <obj_property name="ObjectShortName">irq_sec_ctrl_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/int_controller_i/irq_id_ctrl_o">
+         <obj_property name="ElementShortName">irq_id_ctrl_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">irq_id_ctrl_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/id_stage_i/int_controller_i/mip_i">
+         <obj_property name="ElementShortName">mip_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mip_i[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group52">
+      <obj_property name="label">CSR</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mcycle">
+         <obj_property name="ElementShortName">mcycle[63:0]</obj_property>
+         <obj_property name="ObjectShortName">mcycle[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mtime">
+         <obj_property name="ElementShortName">mtime[63:0]</obj_property>
+         <obj_property name="ObjectShortName">mtime[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mtimecmp">
+         <obj_property name="ElementShortName">mtimecmp[63:0]</obj_property>
+         <obj_property name="ObjectShortName">mtimecmp[63:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mip">
+         <obj_property name="ElementShortName">mip[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mip[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mie">
+         <obj_property name="ElementShortName">mie[31:0]</obj_property>
+         <obj_property name="ObjectShortName">mie[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/riscv_core_i/cs_registers_i/mtimer_expired">
+         <obj_property name="ElementShortName">mtimer_expired</obj_property>
+         <obj_property name="ObjectShortName">mtimer_expired</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group73">
+      <obj_property name="label">top signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/data_addr">
+         <obj_property name="ElementShortName">data_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/rom_en">
+         <obj_property name="ElementShortName">rom_en</obj_property>
+         <obj_property name="ObjectShortName">rom_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/ram_en">
+         <obj_property name="ElementShortName">ram_en</obj_property>
+         <obj_property name="ObjectShortName">ram_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/uart_en">
+         <obj_property name="ElementShortName">uart_en</obj_property>
+         <obj_property name="ObjectShortName">uart_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/\top_tb(ROM_FILE_SIM=&quot;../../../sw/apps/dev/10_ri5cy/10_ri5cy.riscvV1_10.nexys4_init.mem&quot;) /dut/gpio_en">
+         <obj_property name="ElementShortName">gpio_en</obj_property>
+         <obj_property name="ObjectShortName">gpio_en</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group79">
+      <obj_property name="label">Debug</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+</wave_config>
