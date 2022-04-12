@@ -433,6 +433,9 @@ module riscv_praterv
 			begin
 				if(tagDriver != 5'b00000) //if MWM module
 					begin
+						//First check if PC and instr tags are different
+						//if Yes, only if flag = 1 check the DataLATag (tagDriverTramp) with the tagDriver; flag = 0
+						//also if Yes it can be a return.
 						if (/*(instr_addr_i >= drv_start_addr_code[tagDriver]) && */(instr_addr_i <= drv_stop_addr_code[tagDriver]) /* (allDrv &= 1 << tagDriver) != '0' */)
 								begin
 									relocate_code = drv_rel_addr_code[tagDriver];
