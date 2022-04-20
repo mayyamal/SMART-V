@@ -67,7 +67,9 @@ module riscv_praterv
 	localparam TAGFUNCTION_LENGTH = 5;
 	
 	localparam [32-1:0] PERIPHERAL_SIZE 	= 32'h00000100;
+	//MM: Use underscores: 32'h0000_0100;
 	localparam [32-1:0] PERIPHERAL_BASE 	= 32'h00800100;
+	//MM: Use underscores: 32'h0080_0100;
 			
 	// ******** ADDRESS START/END REGISTERS ********
 	logic [N_SMARTV_ADDRESS_REG-1:0][31:0] start_addr;
@@ -425,10 +427,11 @@ module riscv_praterv
 	
 	always_comb
 	begin
-	    isDrvCode = 1'b0;
+	    	isDrvCode = 1'b0;
 		isAppCode = 1'b0;
 		isKernelCode = 1'b0;
 		
+		//MM: Check the pmp_privil_mode_i as well!!!
 		if(tagMode == 1'b1) // user space 
 			begin
 				if(tagDriver != 5'b00000) //if MWM module
@@ -449,10 +452,11 @@ module riscv_praterv
 							isAppCode = 1'b1;
 						end	
 			end
-		else //if(tagMode != 1'b1) // kernel space or monolithic!		
+		//MM: Check the pmp_privil_mode_i as well!!!
+		else //if(!= 1'b1) // kernel space or monolithic!		
 			begin
 			    relocate_code = 32'b0;				
-				isKernelCode = 1'b1;
+			    isKernelCode = 1'b1;
 			end					
 	end // always_comb
 
@@ -463,7 +467,7 @@ module riscv_praterv
    assign valid_mono_lib_address = ((instr_addr_i >= start_addr[`PRATERV_LAR]) && (instr_addr_i <= end_addr[`PRATERV_LAR]));
    
    assign instr_access_fault = !(valid_mono_instruction_address || isDrvCode || valid_mono_lib_address || isAppCode ) && ((opcodeCode == OPCODE_BRANCH) || (opcodeCode == OPCODE_JALR) || (opcodeCode == OPCODE_JAL));
-   
+   //MM: Check the opcode for branch, I think I will receive it in a later clock cycle, just as the opcodeData!? 
    
    //assign instr_addr_o = isdrv_caddr ? instr_addr_i + relocate_drvcode : ((pmp_privil_mode_i == PRIV_LVL_M) || is_interrupt == 1 || valid_lib_address ) ? instr_addr_i : instr_addr_i + relocate_drvcode;
    
